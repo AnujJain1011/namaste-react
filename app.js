@@ -25,4 +25,4 @@ root2.render(parent);
 // root.render(parent); // render replaces the whole html code completely
 root.render(heading);
 
-console.log(heading); // this is an object
+// console.log(heading); // this is an object
