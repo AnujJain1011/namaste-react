@@ -1,3 +1,6 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+
 const heading = React.createElement(
   "h1",
   { id: "heading", xyz: "abc" },
@@ -20,6 +23,6 @@ const parent = React.createElement("div", { id: "parent" }, [
 const root2 = ReactDOM.createRoot(document.getElementById("root2"));
 root2.render(parent);
 // root.render(parent); // render replaces the whole html code completely
-// root.render(heading);
+root.render(heading);
 
 console.log(heading); // this is an object
