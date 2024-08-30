@@ -21,6 +21,7 @@ const Title = () => <h1 className="head">Namaste React using JSX 🚀</h1>;
 // React Component Composition
 const HeadingComponent = () => (
   <div id="container">
+    {/* 3 ways to put a react component into another react component */}
     {Title()}
     <Title />
     <Title></Title>
