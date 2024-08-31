@@ -19,3 +19,8 @@
 - Https - can load server to http,https as per requirement
 - Tree Shaking - removes unused code to make files light weight and efficient at production
 - Provides Different dev and prod bundles
+
+# Babel
+
+- Transpiles/Converts JSX to React code
+- Is a JavaScript Compiler
