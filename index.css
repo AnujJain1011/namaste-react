@@ -1,4 +1,68 @@
-#heading{
-    color: red;
-    background-color: #467678;
+.App{
+    padding: auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+}
+
+.logo{
+    padding: 10px;
+    width: 110px;
+}
+.cart-image{
+    width: 20px;
+}
+
+
+.nav-items ul{
+    display: flex;
+}
+
+.nav-items>ul>li{
+    font-size: 20px;
+    padding: 0px 20px;
+    list-style-type: none;
+}
+
+.nav-items{
+    padding-top: 25px;
+    padding-right: 25px;
+}
+.search{
+    margin: 5px;
+}
+
+.res-card{
+    padding: 5px;
+    width: 220px;
+    /* height: 320px; */
+    margin: 10px;
+}
+.res-card:hover{
+    border: 1px solid black;
+    cursor: pointer;
+}
+.res-logo{
+    width: 100%;
+    height: 50%;
+}
+
+.res-container{
+    display:flex ;
+    flex-wrap: wrap;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+}
+
+.links>ul>li{
+    list-style-type: none;
 }
