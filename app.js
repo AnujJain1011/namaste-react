@@ -756,7 +756,7 @@ const BodyComponent = () => {
         <button>Search</button>
       </div>
 
-      {/* not using keys (not acceptable) <<<< use indexs instead <<<<<<<<<<<<<<< using unique id's(best practice) */}
+      {/* not using keys (not acceptable) <<<< use indexs in place of keys instead <<<<<<<<<<<<<<< using unique id's(best practice) */}
       <div className="res-container">
         {resList.map((res) => (
           <RestaurantCard key={res.info.id} resData={res} />
